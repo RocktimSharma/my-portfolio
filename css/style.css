@@ -531,6 +531,45 @@ hr{
   width: fit-content;
 }
 
+/* work*/
+
+.project{
+  position: relative;
+
+ 
+
+}
+
+.project::before, .project::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  
+}
+
+.project::before {
+  top: -2px;
+  left: 20px;
+  width: 10%;
+  height: 10%;
+  border-top: 2px solid #4a5862;
+  border-left: 2px solid #4a5862;
+
+}
+
+.project::after {
+  bottom: -2px;
+  right: 20px;
+  width: 10%;
+  height: 10%;
+  border-bottom: 2px solid #4a5862;
+  border-right: 2px solid #4a5862;
+
+
+}
+
+
 
 
 /* Media */
