@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Open+Sans&family=Oswald:wght@500;600;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="primary-bg fill-y">
+      <nav class="navbar navbar-expand-lg sticky-top primary-bg">
+        <div class="container-fluid nav-container">
+          <a
+            class="navbar-brand primary-text underline-animation name"
+            href="#"
+          >
+            <img
+              src="./img/logo.png"
+              alt="Logo"
+              width="30"
+              height="30"
+              class="d-inline-block align-text-top"
+            />
+            ROCKTIM SHARMA
+          </a>
+          <button
+            class="navbar-toggler secondary-text"
+            type="button"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <div
+            class="offcanvas offcanvas-start custom-offcanvas primary-bg"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title secondary-text"
+                id="offcanvasNavbarLabel"
+              >
+                Menu
+              </h5>
+              <button
+                type="button"
+                class="btn close-nav"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa-solid fa-x"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link underline-animation active secondary-text-light"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link underline-animation secondary-text-light"
+                    href="#"
+                    >Works</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link underline-animation secondary-text-light"
+                    >Blog</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link underline-animation secondary-text-light"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link underline-animation secondary-text-light"
+                    href="#"
+                    >Certificates</a
+                  >
+                </li>
+              </ul>
+              <p class="primary-text fs-5 ms-auto mt-5">Follow me on</p>
+              <div class="social">
+                <a class="mx-3 mb-3" href=""
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a class="mx-3 mb-3" href=""
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a class="mx-3 mb-3" href=""
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+                <a class="mx-3 mb-3" href=""
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+
+                <div class="bar"></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="collapse custom-collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link underline-animation active secondary-text-light"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link underline-animation secondary-text-light"
+                  href="#"
+                  >Works</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link underline-animation secondary-text-light"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link underline-animation secondary-text-light"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link underline-animation secondary-text-light"
+                  href="#"
+                  >Certificates</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container my-5 p-5 intro-box fade-element">
+        <div class="container mt-5">
+          <p class="primary-text fs-5">Hi, my name is</p>
+          <h1 class="name text-white">
+            Rocktim Sharma<span class="primary-text fs-1 fw-bold">.</span>
+          </h1>
+          <h1 class="secondary-text-light name">
+            I build things over the Internet<span
+              class="primary-text fs-1 fw-bold"
+              >.</span
+            >
+          </h1>
+          <small class="secondary-text intro my-2"
+            >I offer freelance software development services specializing in
+            mobile and web applications, providing end-to-end solutions to
+            transform your ideas into successful online ventures.
+          </small>
+          <button class="btn outline-btn my-3">Hire me</button>
+        </div>
+      </div>
+
+      <div class="social floating-social fade-element">
+        <div class="social-group floating-social">
+          <a class="mx-3 mb-3" href=""><i class="fa-brands fa-github"></i></a>
+          <a class="mx-3 mb-3" href=""
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a class="mx-3 mb-3" href=""><i class="fa-brands fa-whatsapp"></i></a>
+          <a class="mx-3 mb-1" href=""
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-end fade-element">
+        <hr class="seperator" />
+      </div>
+
+      <div class="container my-2 about-me fade-element">
+        <div class="row">
+          <div class="col-sm-5 my-3">
+            <p class="fs-2 primary-text about-me-1 fw-bold heading">About me</p>
+            <img
+              src="./img/p1.png"
+              class="fade-element"
+              width="350"
+              height="350"
+              alt="..."
+            />
+          </div>
+          <div class="col-sm-7 my-3">
+            <p class="fs-2 primary-text about-me-2 fw-bold heading">About me</p>
+            <p class="secondary-text-light para">
+              Hello! My name is Rocktim Sharma. I'm in my first year of studies
+              towards a master's in Computer Application(MCA). My biggest
+              passion is learning about softwares and evolving technologies. I
+              was fascinated with computers , so I decided to study Computer
+              Science in college and I’am continuing in that direction. I enjoy
+              being challenged and engaging with projects that require me to
+              work outside my comfort and knowledge set,learning new languages
+              and development of techniques.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-start fade-element">
+        <hr class="seperator" />
+      </div>
+      <div class="container my-5 fade-element">
+        <div class="row">
+          <div class="col-sm-7">
+            <p class="fs-2 primary-text heading">Recent Work</p>
+            <dl class="row">
+              <dt class="col-sm-3 secondary-text">Title</dt>
+              <dd class="col-sm-9 secondary-text-light para">
+                Plagiarism Detection System in Oracle
+              </dd>
+
+              <dt class="col-sm-3 secondary-text">Tools & Languages</dt>
+              <dd class="col-sm-9 secondary-text-light">
+                <dl class="row">
+                  <dt class="col-sm-4">
+                    <ul>
+                      <li>Oracle 11g XE</li>
+                    </ul>
+                  </dt>
+                  <dd class="col-sm-8">
+                    <ul>
+                      <li>Oracle database</li>
+                      <li>Pl/Sql</li>
+                    </ul>
+                  </dd>
+                </dl>
+              </dd>
+              <dt class="col-sm-3 secondary-text">Description</dt>
+
+              <dd class="col-sm-9 secondary-text-light para">
+                <p>
+                 The proposed system provides a
+                  facility for the professors of the MCA department of JEC to
+                  check if some students have copied their work from other
+                  students. This will help to know the genuineness of the work
+                  done by the students. The main objectives of this system are:
+                  <ul>
+                    <li>Store the details of the students (such as department,
+                      semester, etc) </li>
+                      <li>Store the assignments submitted by the
+                      students. </li>
+                      <li>Check plagiarism for the work submitted by
+                      students.</li>
+                  </ul>
+               
+                </p>
+              </dd>
+            </dl>
+          </div>
+
+          <div class="col-sm-5">
+            <img
+              src="./img/p1.png"
+              class="fade-element"
+              width="350"
+              height="350"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-end fade-element">
+        <hr class="seperator" />
+      </div>
+      <div class="container fade-element" id="contact-sec">
+        <div class="row">
+          <div class="col-sm-6 d-flex align-items-center">
+            <div class="container">
+              <p class="fs-1 mb-1 primary-text heading">Let's talk</p>
+              <p class="fs-1 mb-1 primary-text">
+                <span class="heading">Tell me about your</span> <br /><span
+                  class="heading"
+                  >project</span
+                ><span class="secondary-text fs-1 fw-bold">.</span>
+              </p>
+              <small class="secondary-text-light"
+                >Lets create something together</small
+              >
+              <div class="my-4 mail-box py-2 ps-3 pe-4 primary-text">
+                Mail me at<br />
+                <i class="fa-solid fa-envelope secondary-text"></i>
+                <span class="secondary-text">rocktimsharma82@gmail.com</span>
+              </div>
+              <p class="primary-text fs-5">Follow me on</p>
+              <div class="social">
+                <a class="mx-3 mb-3" href=""
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a class="mx-3 mb-3" href=""
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a class="mx-3 mb-3" href=""
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+                <a class="mx-3 mb-3" href=""
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 p-4">
+            <p class="fs-2 primary-text heading">
+              Send a message<span class="secondary-text fs-1 fw-bold">.</span>
+            </p>
+            <form>
+              <div class="mb-3">
+                <input
+                  type="name"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Your email address"
+                />
+                <div id="emailHelp" class="form-text secondary-text-light">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="7"
+                  placeholder="Leave a message here"
+                  id="floatingTextarea"
+                ></textarea>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button type="submit" class="btn fill-btn float-right">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="primary-bg text-center p-3">
+      <hr />
+      <p class="secondary-text text-center mb-0">
+        © 2023 Copyright:<a class="primary-text underline-animation"
+          >Rocktim Sharma</a
+        >
+      </p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.slim.js"
+      integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/d373bb95a9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
