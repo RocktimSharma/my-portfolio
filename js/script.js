@@ -26,6 +26,15 @@ function runClick(){
 
 
 $(document).ready(function() {
+
+  $(".progress").each(function() {
+    var level = $(this).data("level");
+    console.log(level)
+    $(this).width(level)
+
+  });
+
+
     const fadeElements = $('.fade-element');
   
     function handleScroll() {
@@ -55,6 +64,9 @@ $(document).ready(function() {
   
     $(window).scroll(handleScroll);
   });
+
+
+
   
 
 
